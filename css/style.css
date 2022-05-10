@@ -78,17 +78,23 @@ button{
     text-align: center;
 }
 
+h2{
+    font-size: 42px;
+    margin: 20px;
+}
+
 .middle-element h2{
     color: white;
-    font-size: 42px;
-    margin: 30px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .middle-element p{
     color: white;
-    font-size: 18px;
     margin: 0px 50px;
-    line-height: 30px;
     margin-bottom: 20px;
 }
 
@@ -107,7 +113,7 @@ button{
 .section-2{
     background-color: #FFFFFF;
     height: 480px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .section-2 .container{
@@ -118,17 +124,17 @@ button{
 }
 
 .section-2 .container .col-sx{
-    background-color: #1E90FF;
     height: 380px;
     width: 60%;
-    border: 3px dotted black;
 }
 
 .section-2 .container .col-dx{
-    background-color: #FFC0CB;
     height: 380px;
     width: 40%;
-    border: 3px dotted black;
+}
+
+.section-2 .container .col-dx p{
+    margin: 20px;
 }
 /* Fine della seconda sezione */
 
