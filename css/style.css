@@ -17,46 +17,55 @@ body{
 /* Style per l'header e contenuto */
 header{
     padding: 10px;
-    background-color: #ADD8E6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .head-content{
     display: flex;
     justify-content: space-between;
-    background-color: #DAA520;
 }
 
 .menu{
     display: inline-block;
-    border: 2px dotted black;
     flex-grow: 3;
     padding: 10px;
     text-align: center;
+    align-self: center;
 }
 
 .head-content .menu a{
     text-decoration: none;
-    color: black;
+    color: white;
+    margin: 0 20px;
+    font-size: 15px;
 }
 
 .head-content .logo{
     flex-grow: 1;
     padding: 10px;
-    border: 2px dotted black;
+    align-self: center;
 }
 
 .head-content .login{
     flex-grow: 1;
     padding: 10px;
     text-align: right;
-    border: 2px dotted black;
+    align-self: center;
+}
+
+button{
+    background-color: white;
+    padding: 8px 20px;
+    color: black;
+    border-radius: 50px;
+    border-style: none;
 }
 /* Fine dell'header */
 
-/* Style della prima sezione */
+/* Style della hero section-1 */
 .section-1{
-    background-color: #00008B;
-    height: 400px;
+    height: 460px;
     margin: 0 auto;
     display: flex; 
     justify-content: center;
@@ -64,12 +73,35 @@ header{
 }
 
 .section-1 .middle-element{
-    background-color: #EE82EE;
     height: 300px;
     width: 800px;
-    border: 3px dotted black;
+    text-align: center;
 }
-/* Fine della prima sezione */
+
+.middle-element h2{
+    color: white;
+    font-size: 42px;
+    margin: 30px;
+}
+
+.middle-element p{
+    color: white;
+    font-size: 18px;
+    margin: 0px 50px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.mac-button, #browser-button{
+    font-size: 19px;
+    margin: 0px 5px;
+}
+
+#browser-button{
+    background-color: #23272a;
+    color: white;
+}
+/* Fine della prima sezione hero nell'header */
 
 /* Style della seconda sezione */
 .section-2{
