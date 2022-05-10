@@ -1,0 +1,257 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Style per l'header e contenuto */
+header{
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAA520;
+}
+
+.menu{
+    display: inline-block;
+    border: 2px dotted black;
+    flex-grow: 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-content .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.head-content .logo{
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+.head-content .login{
+    flex-grow: 1;
+    padding: 10px;
+    text-align: right;
+    border: 2px dotted black;
+}
+/* Fine dell'header */
+
+/* Style della prima sezione */
+.section-1{
+    background-color: #00008B;
+    height: 400px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .middle-element{
+    background-color: #EE82EE;
+    height: 300px;
+    width: 800px;
+    border: 3px dotted black;
+}
+/* Fine della prima sezione */
+
+/* Style della seconda sezione */
+.section-2{
+    background-color: #FFFFFF;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.section-2 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.section-2 .container .col-sx{
+    background-color: #1E90FF;
+    height: 380px;
+    width: 60%;
+    border: 3px dotted black;
+}
+
+.section-2 .container .col-dx{
+    background-color: #FFC0CB;
+    height: 380px;
+    width: 40%;
+    border: 3px dotted black;
+}
+/* Fine della seconda sezione */
+
+/* Style della terza sezione */
+.section-3{
+    background-color: #D3D3D3;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.section-3 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.section-3 .container .col-sx{
+    background-color: #FFC0CB;
+    height: 380px;
+    width: 40%;
+    border: 3px dotted black;
+}
+
+.section-3 .container .col-dx{
+    background-color: #1E90FF;
+    height: 380px;
+    width: 60%;
+    border: 3px dotted black;
+}
+/* Fine della terza sezione */
+
+/* Style della quarta sezione */
+.section-4{
+    background-color: #FFFFFF;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.section-4 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.section-4 .container .col-sx{
+    background-color: #1E90FF;
+    height: 380px;
+    width: 60%;
+    border: 3px dotted black;
+}
+
+.section-4 .container .col-dx{
+    background-color: #FFC0CB;
+    height: 380px;
+    width: 40%;
+    border: 3px dotted black;
+}
+/* Fine della quarta sezione */
+
+/* Style della quinta sezione */
+.section-5{
+    background-color: #D3D3D3;
+    height: 800px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 .middle-element{
+    background-color: #228B22;
+    height: 700px;
+    border: 3px dotted black;
+}
+/* Fine della quinta sezione */
+
+/* Style della sesta sezione */
+.section-6{
+    background-color: #23272A;
+    height: 440px;
+    margin: 0 auto;
+}
+
+.section-6 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    height: inherit;
+    padding-top: 10px;
+}
+
+.section-6 .container .col-sx{
+    background-color: #F08080;
+    height: 400px;
+    flex-grow: 2;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-1{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-2{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-3{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-4{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+/* Fine della sesta sezione */
+
+/* Style per footer e contenuto */
+footer{
+    padding-top: 20px;
+    margin-top: 1px;
+    background-color: #23272A;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #7fffd4;
+    padding: 20px 0;
+}
+
+.footer-content .logo{
+    align-self: center;
+    background-color: #FFC0CB;
+    padding: 5px 10px;
+    border: 3px dotted black;
+}
+
+.footer-content .bottone{
+    align-self: center;
+    background-color: #FFC0CB;
+    padding: 5px 10px;
+    border: 3px dotted black;
+}
+/* Fine del footer */
