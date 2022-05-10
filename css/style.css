@@ -138,7 +138,7 @@ p{
 .section-3{
     background-color: #f6f6f6;
     height: 480px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .section-3 .container{
@@ -163,7 +163,7 @@ p{
 .section-4{
     background-color: #FFFFFF;
     height: 480px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .section-4 .container{
@@ -174,17 +174,13 @@ p{
 }
 
 .section-4 .container .col-sx{
-    background-color: #1E90FF;
     height: 380px;
     width: 60%;
-    border: 3px dotted black;
 }
 
 .section-4 .container .col-dx{
-    background-color: #FFC0CB;
     height: 380px;
     width: 40%;
-    border: 3px dotted black;
 }
 /* Fine della quarta sezione */
 
