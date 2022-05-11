@@ -138,7 +138,7 @@ p{
 .section-3{
     background-color: #f6f6f6;
     height: 480px;
-    margin: 0 auto 50px;
+    margin: 0 auto 100px;
 }
 
 .section-3 .container{
@@ -156,6 +156,16 @@ p{
 .section-3 .container .col-dx{
     height: 380px;
     width: 60%;
+}
+
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+}
+
+.wave.rotate{
+    transform: rotate(0.5turn);
 }
 /* Fine della terza sezione */
 
